@@ -32,3 +32,17 @@ button {
 button:hover {
     background-color: #218838;
 }
+.back-button {
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+.back-button:hover {
+    background-color: #c82333;
+}

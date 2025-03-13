@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 13, 2025 at 01:16 PM
+-- Generation Time: Mar 13, 2025 at 01:42 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -31,7 +31,9 @@ CREATE TABLE `admin` (
   `admin_id` int(5) NOT NULL,
   `adminlname` varchar(255) NOT NULL,
   `adminfname` varchar(255) NOT NULL,
-  `birthdate` varchar(255) NOT NULL
+  `birthdate` varchar(255) NOT NULL,
+  `pass` varchar(255) NOT NULL,
+  `uname` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -44,7 +46,9 @@ CREATE TABLE `users` (
   `user_id` int(5) NOT NULL,
   `userlname` varchar(255) NOT NULL,
   `userfname` varchar(255) NOT NULL,
-  `birthdate` varchar(255) NOT NULL
+  `birthdate` varchar(255) NOT NULL,
+  `pass` varchar(255) NOT NULL,
+  `uname` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
